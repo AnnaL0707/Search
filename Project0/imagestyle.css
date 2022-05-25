@@ -1,0 +1,54 @@
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;  /* to push the navbar to the right side of the screen*/
+    margin:5px;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #202124;
+    margin: 6px;
+}
+a:hover {
+ text-decoration:underline;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    min-width:640px;
+}
+
+img {
+    margin-top:200px;
+    border:none;
+}
+
+#searchbar {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width:600px;
+    height: 40px;
+    padding:3px;
+    margin:15px;
+    border-radius: 25px;
+    border: 0;
+    box-shadow: 0 0 5px gray ;
+
+}
+
+#gsearchbutton {
+    margin:0 15px 0 250px;
+    width: 150px;
+    height:30px;
+    font-size:14px;
+    font-family: Roboto, arial, sans-serif;
+    color: #202124;
+}
+
+
